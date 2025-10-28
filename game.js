@@ -49,7 +49,7 @@ function checkAns(idx) {
             setTimeout(levelUp, 1000);
         }
     } else {
-        h2.innerText= `Game Over!. Your score was <b>${level}</b> <br> Press any key to start. `;
+        h2.innerText= `Game Over! Your score was <b> ${level} </b> <br> Press any key to start. `;
         console.log("Game Over!!")
         document.querySelector("body").style.backgroundColor = "red";
         setTimeout(function(){

@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simon Says Game</title>
     <link rel="stylesheet" href="game.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <h1>Simon Says Game</h1>
     <h2>Press any to start the game</h2>
@@ -20,7 +23,24 @@
             <div class="btn purple" type="button" id="purple"></div>
         </div>
     </div>
-    
+
+    <div class="step">
+        <h2><i class="fa-solid fa-hand-point-right"></i> Step to Play :</h2>
+        <div class="content">
+            <p>1. Click anywhere on the screen to begin your Simon Says challenge. The game will start showing a sequence of colors.</p>
+            <p>2. Pay close attention to which button flashes, this is the first color you need to
+                remember.</p>
+            <p>3. Click on the button with the same color that just flashed to match the game’s move.</p>
+            <p>4. Each new level adds one more color to the pattern, making it a bit harder.</p>
+            <p>5. You must click all the colors in the exact order shown from the very beginning.</p>
+          <p>6. If you press the wrong color, the screen flashes red, and your game ends.</p>
+          <p>7. After “Game Over,” click anywhere to restart the game and try to beat your highest level!</p>
+
+        </div>
+    </div>
+
+
     <script src="game.js"></script>
 </body>
+
 </html>
