@@ -54,8 +54,61 @@ body {
 }
 
 .content p {
-    display: flex;
     opacity: 0.9;
-    line-height: 2px;
+    /* line-height: 2px; */
+    height: 100%;
+}
 
+/* ========== RESPONSIVE DESIGN ========== */
+
+/* Medium Devices (Tablets) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    .btn {
+        height: 110px;
+        width: 110px;
+        border-width: 5px;
+    }
+
+    .step {
+        font-size: 0.95rem;
+        padding: 1rem;
+    }
+}
+
+/* Small Devices (Phones) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    .btn-container {
+        margin-top: 1.5rem;
+    }
+
+    .btn {
+        height: 90px;
+        width: 90px;
+        border-width: 4px;
+    }
+
+    .line-one, .line-two {
+        gap: 0.6rem;
+    }
+
+    .step {
+        margin: 2rem 1rem;
+        font-size: 0.9rem;
+    }
 }
